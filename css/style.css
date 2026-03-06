@@ -1,0 +1,108 @@
+body {
+    background-color: #0E1014;
+}
+
+.logo-branco {
+    margin: 75px 0px 0px 360px;
+}
+
+.titulo-principal {
+    font-size: 4rem;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Unbounded", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 24px;
+}
+
+.titulo-principal-roxo {
+    color: #9747FF;
+    text-align: center;
+}
+
+p {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 792px;
+    font-size: 24px;
+}
+
+.celulares {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: block;
+    background-color: #9747FF;
+    width: 340px;
+    height: 66px;
+    line-height: 66px;
+    border-radius: 36px;
+    margin: 40px auto;
+}
+
+a:hover {
+    background-color: #8233E8;
+}
+
+.celulares {
+    margin: 40px auto;
+}
+
+@media (max-width: 768px) {
+    .logo-branco {
+        margin: 65px 0px 0px 60px;
+    }
+
+    .titulo-principal {
+        margin-top: 72px;
+    }
+
+    p {
+        margin: 0 auto;
+        width: 648px;
+    }
+
+    a {
+        margin-top: 40px;
+    }
+
+    .celulares {
+        width: 659.5px;
+    }
+}
+
+@media (max-width: 375px) {
+    .logo-branco {
+        margin: 32px 0px 0px 16px;
+    }
+
+    .titulo-principal {
+        font-size: 2.5rem;
+        margin-top: 60px;
+    }
+
+    p {
+        margin: 0 auto;
+        width: 341px;
+        font-size: 1.25rem;
+    }
+
+     a {
+        width: 251px;
+    }
+
+    .celulares {
+        width: 341px;
+        height: 230px;
+    }
+}
